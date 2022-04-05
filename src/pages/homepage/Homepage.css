@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.hero-img{
+    margin-top: var(--size-one);
+    position: relative;
+    margin-bottom: var(--size-two);
+}
+.img-responsive {
+    width: 100%;
+    height: 100vh;
+}
+.btn-overlay{
+    position: absolute;
+    bottom: 10rem;
+    left: 10rem;
+}
+.hero-btn {
+    background-color: rgba(235, 13, 13, 0.829);
+    border: 1px solid gray;
+    color: white;
+    cursor: pointer;
+    font-size: var(--size-one-two);
+    padding: var(--size-zero-five);
+    text-align: center;
+    width: 100%;
+}
+.hero-btn:hover{
+    text-decoration: underline;
+}
+.watchSubHeading {
+    margin:0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-size: var(--size-one-four);
+    margin-bottom: var(--size-two);
+}
+.txt-underline {
+    width: 14rem;
+    margin-bottom: var(--size-two);
+   border-bottom: 2px solid rgba(235, 13, 13, 0.829);
+}
+.watchCollection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: var(--size-six);
+}
+.bestWatch {
+    display: flex;
+}
+.watchWrapperText {
+    text-align: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
