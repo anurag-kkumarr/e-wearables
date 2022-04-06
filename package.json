@@ -23,6 +23,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+<<<<<<< HEAD
+=======
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+>>>>>>> 758aa2c8a5121363e35ca1f555aac4e7c89b0205
   "browserslist": {
     "production": [
       ">0.2%",
@@ -33,6 +39,3 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  }
-}
