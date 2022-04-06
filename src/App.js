@@ -1,7 +1,7 @@
 import React from 'react';
 import {Routes, Route} from "react-router-dom";
 import "./App.css";
-import {Homepage, ProductListing, CartPage, WishList, Login, Logout, Signup} from "./pages/indexPage";
+import {Homepage, ProductListing, CartPage, WishList, Login, Logout, Signup} from "./pages/index";
 function App() {
   return (
     <div className="App">
