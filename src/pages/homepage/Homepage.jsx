@@ -16,8 +16,8 @@ const Homepage =()=>{
             <NavBar />
             
             <div className="hero-img">
-            <Link to="/"><img class="img-responsive" src={HomepageWatch} alt="Homepagewatch" /></Link>
-            <div className='btn-overlay hero-text'><button className='hero-btn '>Shop Now</button></div>
+            <Link to="/product"><img class="img-responsive" src={HomepageWatch} alt="Homepagewatch" /></Link>
+            <Link to="/product" className='btn-overlay hero-text'><button className='hero-btn '>Shop Now</button></Link>
             </div>
             <div className="watchSubHeading"><div className='txt-underline'>OUR COLLECTIONS</div></div> 
             <div className="watchCollection">

@@ -1,13 +1,15 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import "./NavBar.css";
+// import Homepage, CartPage, ProductListing, Login, WishList  from '../../pages/index';
 
 const NavBar =() =>{
     return(
         <nav className="nav-head">
         <h1 className="app-head">timeby</h1>
         <nav className="nav-left">
-          <a href="/" className="nav-btn">Home</a>
-          <a href="/" className="nav-btn">Product</a>
+          <Link to="/" className="nav-btn">Home</Link>
+          <Link to="/Product" className="nav-btn">Product</Link>
         </nav>
 
         <form action="" className="search-container">
@@ -18,9 +20,9 @@ const NavBar =() =>{
         </form>
 
         <nav className="nav-right">
-          <a href="/" className="nav-btn">Cart</a>
-          <a href="/" className="nav-btn">wishlist</a>
-          <a href="/" className="nav-btn">login</a>
+        <Link to="/cart" className="nav-btn">Cart</Link>
+          <Link to="/wishList" className="nav-btn">wishlist</Link>
+          <Link to="/login" className="nav-btn">login</Link>
         </nav>
       </nav>
     );
